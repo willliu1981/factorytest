@@ -1,0 +1,12 @@
+之前在臉書社團,有人提出了factory create 的 track code
+我也不是很清楚是什麼
+所以就臨摹了曾經看過的一種設計,還原度不到五成,因為太久了orz...
+
+但可能也設計錯誤了,請多指正orz
+
+我個人習慣將主入口設定為 main 
+所以package 名為 main
+
+factory  package  放 Factory
+myclass package 放 將被factory實例化的類別
+app package 放初始化功用的類別

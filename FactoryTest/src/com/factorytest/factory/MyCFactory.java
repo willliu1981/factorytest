@@ -1,5 +1,7 @@
 package com.factorytest.factory;
 
+import com.factorytest.myclass.MyC;
+
 public class MyCFactory implements CFactory<MyC> {
 	private MyC myC;
 	private String propPath;

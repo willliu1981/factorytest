@@ -1,8 +1,8 @@
 package com.factorytest.main;
 
 import com.factorytest.app.App;
-import com.factorytest.factory.MyC;
 import com.factorytest.factory.MyCFactory;
+import com.factorytest.myclass.MyC;
 
 public class FactoryTest {
 

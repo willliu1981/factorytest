@@ -1,7 +1,5 @@
 package com.factorytest.myclass;
 
-import com.factorytest.factory.MyC;
-
 public class MyC1 extends MyC {
 	int a, b;
 	int sum;
@@ -12,7 +10,7 @@ public class MyC1 extends MyC {
 	}
 
 	@Override
-	protected void set(int a, int b) {
+	public void set(int a, int b) {
 		this.a = a;
 		this.b = b;
 		this.sum += this.a + this.b;
